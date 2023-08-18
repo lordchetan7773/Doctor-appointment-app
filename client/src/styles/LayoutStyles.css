@@ -1,0 +1,134 @@
+.main {
+  height: 100vh;
+}
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  min-height: 100%;
+  width: 300px;
+  background-color: rgb(9, 22, 1);
+  box-shadow: 0 0 2px gray;
+  margin-right: 0px;
+  font-weight: 100;
+
+  color: white;
+}
+.content{
+/* border:1px solid black; */
+ width: 100%;
+ height: 100%;
+
+}
+
+.header {
+  height: 10vh;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px gray;
+  background-color: rgb(100, 110, 114);
+  border: 1px solid black;
+}
+.body {
+  height: 85vh;
+  margin: 0 0 ; 
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 2px gray;
+  background-color: white;
+}
+.logo h6 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 20px 0px;
+}
+.menu {
+  margin-top: 50px;
+}
+.menu-item {
+  /* border: 1px solid rgb(114, 118, 115); */
+  margin: 10px 0 ;
+  padding: 10px 10px;
+
+}
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.menu-item i {
+  font-size: 1.2rem;
+  margin: 0 15px;
+}
+
+.active {
+  background-color: white;
+  padding: 10px;
+}
+.active a,
+.active i {
+  color: rgb(51, 1, 1);
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  justify-content: flex-end;
+  margin: 0 15px;
+}
+.header-content i {
+  margin-right: 0px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px 20px ;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+.header-content a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  margin: 0 30px;
+  text-transform: uppercase;
+  cursor:default ;
+  border: 1px solid rgba(0, 0, 0);
+  padding: 6.5px 20px ;
+}
+.header-content i:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+.header-content a:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.button-read{
+  background-color: red;
+}
+
+
+/* LayoutStyles.css */
+
+/* Add hover-zoom effect */
+/* LayoutStyles.css */
+
+/* Add hover-zoom effect */
+.hover-zoom {
+  transition: transform 0.3s;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+/* Add hover-fade effect */
+.hover-fade {
+  transition: opacity 0.3s;
+}
+
+.hover-fade:hover {
+  opacity: 0.8;
+}
+
